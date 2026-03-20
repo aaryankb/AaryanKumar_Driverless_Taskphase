@@ -1,0 +1,90 @@
+[0.033s] Invoking command in '/home/aaryan/ros2_ws/src/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aaryan/ros2_ws/src/examples/rclcpp/composition/minimal_composition -DCMAKE_INSTALL_PREFIX=/home/aaryan/ros2_ws/src/install/examples_rclcpp_minimal_composition
+[0.773s] -- The C compiler identification is GNU 11.4.0
+[0.773s] -- The CXX compiler identification is GNU 11.4.0
+[0.773s] -- Detecting C compiler ABI info
+[0.773s] -- Detecting C compiler ABI info - done
+[0.773s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.774s] -- Detecting C compile features
+[0.775s] -- Detecting C compile features - done
+[0.775s] -- Detecting CXX compiler ABI info
+[0.775s] -- Detecting CXX compiler ABI info - done
+[0.775s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.775s] -- Detecting CXX compile features
+[0.775s] -- Detecting CXX compile features - done
+[0.775s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.775s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.779s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[0.779s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.779s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.779s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.779s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.779s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.779s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.779s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.809s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.832s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.868s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.874s] -- Looking for pthread.h
+[0.939s] -- Looking for pthread.h - found
+[0.939s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.003s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.004s] -- Found Threads: TRUE  
+[1.056s] -- Found rclcpp_components: 16.0.18 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.087s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.170s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.171s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.173s] -- Configured cppcheck include dirs: /home/aaryan/ros2_ws/src/examples/rclcpp/composition/minimal_composition/include
+[1.173s] -- Configured cppcheck exclude dirs and/or files: 
+[1.178s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.178s] -- Configured cpplint exclude dirs and/or files: 
+[1.178s] -- Added test 'lint_cmake' to check CMake code style
+[1.178s] -- Added test 'uncrustify' to check C / C++ code style
+[1.179s] -- Configured uncrustify additional arguments: 
+[1.179s] -- Added test 'xmllint' to check XML markup files
+[1.179s] -- Configuring done
+[1.195s] -- Generating done
+[1.203s] -- Build files have been written to: /home/aaryan/ros2_ws/src/build/examples_rclcpp_minimal_composition
+[1.223s] Invoked command in '/home/aaryan/ros2_ws/src/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aaryan/ros2_ws/src/examples/rclcpp/composition/minimal_composition -DCMAKE_INSTALL_PREFIX=/home/aaryan/ros2_ws/src/install/examples_rclcpp_minimal_composition
+[1.224s] Invoking command in '/home/aaryan/ros2_ws/src/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aaryan/ros2_ws/src/build/examples_rclcpp_minimal_composition -- -j16 -l16
+[1.270s] [ 11%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/publisher_node.cpp.o[0m
+[5.029s] [ 22%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/subscriber_node.cpp.o[0m
+[12.016s] [ 33%] [32m[1mLinking CXX shared library libcomposition_nodes.so[0m
+[12.375s] [ 33%] Built target composition_nodes
+[12.392s] [ 44%] [32mBuilding CXX object CMakeFiles/composition_publisher.dir/src/standalone_publisher.cpp.o[0m
+[14.290s] [ 55%] [32m[1mLinking CXX executable composition_publisher[0m
+[14.431s] [ 55%] Built target composition_publisher
+[14.448s] [ 66%] [32mBuilding CXX object CMakeFiles/composition_composed.dir/src/composed.cpp.o[0m
+[16.380s] [ 77%] [32m[1mLinking CXX executable composition_composed[0m
+[16.514s] [ 77%] Built target composition_composed
+[16.530s] [ 88%] [32mBuilding CXX object CMakeFiles/composition_subscriber.dir/src/standalone_subscriber.cpp.o[0m
+[18.447s] [100%] [32m[1mLinking CXX executable composition_subscriber[0m
+[18.579s] [100%] Built target composition_subscriber
+[18.590s] Invoked command in '/home/aaryan/ros2_ws/src/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aaryan/ros2_ws/src/build/examples_rclcpp_minimal_composition -- -j16 -l16
+[18.591s] Invoking command in '/home/aaryan/ros2_ws/src/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aaryan/ros2_ws/src/build/examples_rclcpp_minimal_composition
+[18.597s] -- Install configuration: ""
+[18.597s] -- Installing: /home/aaryan/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.sh
+[18.597s] -- Installing: /home/aaryan/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.dsv
+[18.597s] -- Installing: /home/aaryan/ros2_ws/src/install/examples_rclcpp_minimal_composition/lib/libcomposition_nodes.so
+[18.600s] -- Set runtime path of "/home/aaryan/ros2_ws/src/install/examples_rclcpp_minimal_composition/lib/libcomposition_nodes.so" to ""
+[18.600s] -- Installing: /home/aaryan/ros2_ws/src/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_publisher
+[18.600s] -- Set runtime path of "/home/aaryan/ros2_ws/src/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_publisher" to ""
+[18.600s] -- Installing: /home/aaryan/ros2_ws/src/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_subscriber
+[18.600s] -- Set runtime path of "/home/aaryan/ros2_ws/src/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_subscriber" to ""
+[18.601s] -- Installing: /home/aaryan/ros2_ws/src/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_composed
+[18.601s] -- Set runtime path of "/home/aaryan/ros2_ws/src/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_composed" to ""
+[18.601s] -- Installing: /home/aaryan/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_composition
+[18.601s] -- Installing: /home/aaryan/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_composition
+[18.601s] -- Installing: /home/aaryan/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.sh
+[18.601s] -- Installing: /home/aaryan/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.dsv
+[18.601s] -- Installing: /home/aaryan/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.sh
+[18.601s] -- Installing: /home/aaryan/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.dsv
+[18.601s] -- Installing: /home/aaryan/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.bash
+[18.601s] -- Installing: /home/aaryan/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.sh
+[18.601s] -- Installing: /home/aaryan/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.zsh
+[18.602s] -- Installing: /home/aaryan/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.dsv
+[18.602s] -- Installing: /home/aaryan/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.dsv
+[18.602s] -- Installing: /home/aaryan/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/packages/examples_rclcpp_minimal_composition
+[18.602s] -- Installing: /home/aaryan/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig.cmake
+[18.602s] -- Installing: /home/aaryan/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig-version.cmake
+[18.602s] -- Installing: /home/aaryan/ros2_ws/src/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.xml
+[18.603s] Invoked command in '/home/aaryan/ros2_ws/src/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aaryan/ros2_ws/src/build/examples_rclcpp_minimal_composition
