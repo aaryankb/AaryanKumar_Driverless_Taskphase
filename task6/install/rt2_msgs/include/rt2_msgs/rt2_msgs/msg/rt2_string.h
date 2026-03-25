@@ -1,0 +1,12 @@
+// generated from rosidl_generator_c/resource/idl.h.em
+// with input from rt2_msgs:msg/RT2String.idl
+// generated code does not contain a copyright notice
+
+#ifndef RT2_MSGS__MSG__RT2_STRING_H_
+#define RT2_MSGS__MSG__RT2_STRING_H_
+
+#include "rt2_msgs/msg/detail/rt2_string__struct.h"
+#include "rt2_msgs/msg/detail/rt2_string__functions.h"
+#include "rt2_msgs/msg/detail/rt2_string__type_support.h"
+
+#endif  // RT2_MSGS__MSG__RT2_STRING_H_

@@ -1,0 +1,5 @@
+[console_scripts]
+node1 = rt2_logic.node1:main
+node2 = rt2_logic.node2:main
+node3 = rt2_logic.node3:main
+

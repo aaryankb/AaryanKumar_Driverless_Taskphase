@@ -1,0 +1,6 @@
+Invoking command in '/home/aaryan/ros2_ws/src/task6/build/rt2_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aaryan/ros2_ws/src/task6/rt2_msgs -DCMAKE_INSTALL_PREFIX=/home/aaryan/ros2_ws/src/task6/install/rt2_msgs
+Invoked command in '/home/aaryan/ros2_ws/src/task6/build/rt2_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aaryan/ros2_ws/src/task6/rt2_msgs -DCMAKE_INSTALL_PREFIX=/home/aaryan/ros2_ws/src/task6/install/rt2_msgs
+Invoking command in '/home/aaryan/ros2_ws/src/task6/build/rt2_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aaryan/ros2_ws/src/task6/build/rt2_msgs -- -j16 -l16
+Invoked command in '/home/aaryan/ros2_ws/src/task6/build/rt2_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aaryan/ros2_ws/src/task6/build/rt2_msgs -- -j16 -l16
+Invoking command in '/home/aaryan/ros2_ws/src/task6/build/rt2_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aaryan/ros2_ws/src/task6/build/rt2_msgs
+Invoked command in '/home/aaryan/ros2_ws/src/task6/build/rt2_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aaryan/ros2_ws/src/task6/build/rt2_msgs

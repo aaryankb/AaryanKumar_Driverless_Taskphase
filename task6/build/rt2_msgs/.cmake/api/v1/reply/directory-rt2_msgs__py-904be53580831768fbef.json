@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "rt2_msgs__py",
+		"source" : "/home/aaryan/ros2_ws/src/task6/build/rt2_msgs/rt2_msgs__py"
+	}
+}

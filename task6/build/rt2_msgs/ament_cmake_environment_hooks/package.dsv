@@ -1,0 +1,4 @@
+source;share/rt2_msgs/local_setup.bash
+source;share/rt2_msgs/local_setup.dsv
+source;share/rt2_msgs/local_setup.sh
+source;share/rt2_msgs/local_setup.zsh

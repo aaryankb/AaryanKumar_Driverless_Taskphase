@@ -1,0 +1,45 @@
+[0.696s] Invoking command in '/home/aaryan/ros2_ws/src/task6/rt2_logic': AMENT_PREFIX_PATH=/home/aaryan/ros2_ws/src/task6/install/rt2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aaryan/ros2_ws/src/task6/install/rt2_msgs LD_LIBRARY_PATH=/home/aaryan/ros2_ws/src/task6/install/rt2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aaryan/ros2_ws/src/task6/build/rt2_logic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aaryan/ros2_ws/src/task6/install/rt2_logic/lib/python3.10/site-packages:/home/aaryan/ros2_ws/src/task6/install/rt2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/rt2_logic build --build-base /home/aaryan/ros2_ws/src/task6/build/rt2_logic/build install --record /home/aaryan/ros2_ws/src/task6/build/rt2_logic/install.log --single-version-externally-managed install_data
+[0.952s] running egg_info
+[0.953s] creating ../build/rt2_logic/rt2_logic.egg-info
+[0.953s] writing ../build/rt2_logic/rt2_logic.egg-info/PKG-INFO
+[0.953s] writing dependency_links to ../build/rt2_logic/rt2_logic.egg-info/dependency_links.txt
+[0.953s] writing entry points to ../build/rt2_logic/rt2_logic.egg-info/entry_points.txt
+[0.953s] writing requirements to ../build/rt2_logic/rt2_logic.egg-info/requires.txt
+[0.953s] writing top-level names to ../build/rt2_logic/rt2_logic.egg-info/top_level.txt
+[0.953s] writing manifest file '../build/rt2_logic/rt2_logic.egg-info/SOURCES.txt'
+[0.955s] reading manifest file '../build/rt2_logic/rt2_logic.egg-info/SOURCES.txt'
+[0.956s] writing manifest file '../build/rt2_logic/rt2_logic.egg-info/SOURCES.txt'
+[0.956s] running build
+[0.956s] running build_py
+[0.957s] creating /home/aaryan/ros2_ws/src/task6/build/rt2_logic/build
+[0.957s] creating /home/aaryan/ros2_ws/src/task6/build/rt2_logic/build/lib
+[0.957s] creating /home/aaryan/ros2_ws/src/task6/build/rt2_logic/build/lib/rt2_logic
+[0.957s] copying rt2_logic/node2.py -> /home/aaryan/ros2_ws/src/task6/build/rt2_logic/build/lib/rt2_logic
+[0.957s] copying rt2_logic/node3.py -> /home/aaryan/ros2_ws/src/task6/build/rt2_logic/build/lib/rt2_logic
+[0.957s] copying rt2_logic/node1.py -> /home/aaryan/ros2_ws/src/task6/build/rt2_logic/build/lib/rt2_logic
+[0.957s] copying rt2_logic/__init__.py -> /home/aaryan/ros2_ws/src/task6/build/rt2_logic/build/lib/rt2_logic
+[0.957s] running install
+[0.958s] running install_lib
+[0.958s] creating /home/aaryan/ros2_ws/src/task6/install/rt2_logic/lib/python3.10/site-packages/rt2_logic
+[0.958s] copying /home/aaryan/ros2_ws/src/task6/build/rt2_logic/build/lib/rt2_logic/node2.py -> /home/aaryan/ros2_ws/src/task6/install/rt2_logic/lib/python3.10/site-packages/rt2_logic
+[0.959s] copying /home/aaryan/ros2_ws/src/task6/build/rt2_logic/build/lib/rt2_logic/node3.py -> /home/aaryan/ros2_ws/src/task6/install/rt2_logic/lib/python3.10/site-packages/rt2_logic
+[0.959s] copying /home/aaryan/ros2_ws/src/task6/build/rt2_logic/build/lib/rt2_logic/node1.py -> /home/aaryan/ros2_ws/src/task6/install/rt2_logic/lib/python3.10/site-packages/rt2_logic
+[0.959s] copying /home/aaryan/ros2_ws/src/task6/build/rt2_logic/build/lib/rt2_logic/__init__.py -> /home/aaryan/ros2_ws/src/task6/install/rt2_logic/lib/python3.10/site-packages/rt2_logic
+[0.959s] byte-compiling /home/aaryan/ros2_ws/src/task6/install/rt2_logic/lib/python3.10/site-packages/rt2_logic/node2.py to node2.cpython-310.pyc
+[0.960s] byte-compiling /home/aaryan/ros2_ws/src/task6/install/rt2_logic/lib/python3.10/site-packages/rt2_logic/node3.py to node3.cpython-310.pyc
+[0.960s] byte-compiling /home/aaryan/ros2_ws/src/task6/install/rt2_logic/lib/python3.10/site-packages/rt2_logic/node1.py to node1.cpython-310.pyc
+[0.961s] byte-compiling /home/aaryan/ros2_ws/src/task6/install/rt2_logic/lib/python3.10/site-packages/rt2_logic/__init__.py to __init__.cpython-310.pyc
+[0.961s] running install_data
+[0.961s] creating /home/aaryan/ros2_ws/src/task6/install/rt2_logic/share/ament_index
+[0.961s] creating /home/aaryan/ros2_ws/src/task6/install/rt2_logic/share/ament_index/resource_index
+[0.961s] creating /home/aaryan/ros2_ws/src/task6/install/rt2_logic/share/ament_index/resource_index/packages
+[0.961s] copying resource/rt2_logic -> /home/aaryan/ros2_ws/src/task6/install/rt2_logic/share/ament_index/resource_index/packages
+[0.961s] copying package.xml -> /home/aaryan/ros2_ws/src/task6/install/rt2_logic/share/rt2_logic
+[0.962s] running install_egg_info
+[0.965s] Copying ../build/rt2_logic/rt2_logic.egg-info to /home/aaryan/ros2_ws/src/task6/install/rt2_logic/lib/python3.10/site-packages/rt2_logic-0.0.0-py3.10.egg-info
+[0.965s] running install_scripts
+[0.990s] Installing node1 script to /home/aaryan/ros2_ws/src/task6/install/rt2_logic/lib/rt2_logic
+[0.991s] Installing node2 script to /home/aaryan/ros2_ws/src/task6/install/rt2_logic/lib/rt2_logic
+[0.991s] Installing node3 script to /home/aaryan/ros2_ws/src/task6/install/rt2_logic/lib/rt2_logic
+[0.991s] writing list of installed files to '/home/aaryan/ros2_ws/src/task6/build/rt2_logic/install.log'
+[1.017s] Invoked command in '/home/aaryan/ros2_ws/src/task6/rt2_logic' returned '0': AMENT_PREFIX_PATH=/home/aaryan/ros2_ws/src/task6/install/rt2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aaryan/ros2_ws/src/task6/install/rt2_msgs LD_LIBRARY_PATH=/home/aaryan/ros2_ws/src/task6/install/rt2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aaryan/ros2_ws/src/task6/build/rt2_logic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aaryan/ros2_ws/src/task6/install/rt2_logic/lib/python3.10/site-packages:/home/aaryan/ros2_ws/src/task6/install/rt2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/rt2_logic build --build-base /home/aaryan/ros2_ws/src/task6/build/rt2_logic/build install --record /home/aaryan/ros2_ws/src/task6/build/rt2_logic/install.log --single-version-externally-managed install_data

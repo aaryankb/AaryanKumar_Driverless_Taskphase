@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rt2_msgs/msg/RT2String.msg
+// generated code does not contain a copyright notice
+
+
+module rt2_msgs {
+  module msg {
+    struct RT2String {
+      string data;
+    };
+  };
+};

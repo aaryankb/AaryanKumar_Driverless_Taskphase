@@ -1,0 +1,21 @@
+{
+  "package_name": "rt2_msgs",
+  "output_dir": "/home/aaryan/ros2_ws/src/task6/build/rt2_msgs/rosidl_typesupport_cpp/rt2_msgs",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_cpp/resource",
+  "idl_tuples": [
+    "/home/aaryan/ros2_ws/src/task6/build/rt2_msgs/rosidl_adapter/rt2_msgs:msg/RT2String.idl",
+    "/home/aaryan/ros2_ws/src/task6/build/rt2_msgs/rosidl_adapter/rt2_msgs:msg/PalCheck.idl",
+    "/home/aaryan/ros2_ws/src/task6/build/rt2_msgs/rosidl_adapter/rt2_msgs:msg/PalFeedback.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_cpp/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/action__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
+    "/home/aaryan/ros2_ws/src/task6/build/rt2_msgs/rosidl_adapter/rt2_msgs/msg/RT2String.idl",
+    "/home/aaryan/ros2_ws/src/task6/build/rt2_msgs/rosidl_adapter/rt2_msgs/msg/PalCheck.idl",
+    "/home/aaryan/ros2_ws/src/task6/build/rt2_msgs/rosidl_adapter/rt2_msgs/msg/PalFeedback.idl"
+  ]
+}

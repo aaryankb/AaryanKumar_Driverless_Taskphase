@@ -1,0 +1,8 @@
+{
+  "package_name": "rt2_msgs",
+  "non_idl_tuples": [
+    "/home/aaryan/ros2_ws/src/task6/rt2_msgs:msg/RT2String.msg",
+    "/home/aaryan/ros2_ws/src/task6/rt2_msgs:msg/PalCheck.msg",
+    "/home/aaryan/ros2_ws/src/task6/rt2_msgs:msg/PalFeedback.msg"
+  ]
+}

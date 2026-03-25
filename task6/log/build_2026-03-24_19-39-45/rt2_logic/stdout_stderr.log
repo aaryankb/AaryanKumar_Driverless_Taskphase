@@ -1,0 +1,43 @@
+running egg_info
+creating ../build/rt2_logic/rt2_logic.egg-info
+writing ../build/rt2_logic/rt2_logic.egg-info/PKG-INFO
+writing dependency_links to ../build/rt2_logic/rt2_logic.egg-info/dependency_links.txt
+writing entry points to ../build/rt2_logic/rt2_logic.egg-info/entry_points.txt
+writing requirements to ../build/rt2_logic/rt2_logic.egg-info/requires.txt
+writing top-level names to ../build/rt2_logic/rt2_logic.egg-info/top_level.txt
+writing manifest file '../build/rt2_logic/rt2_logic.egg-info/SOURCES.txt'
+reading manifest file '../build/rt2_logic/rt2_logic.egg-info/SOURCES.txt'
+writing manifest file '../build/rt2_logic/rt2_logic.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/aaryan/ros2_ws/src/task6/build/rt2_logic/build
+creating /home/aaryan/ros2_ws/src/task6/build/rt2_logic/build/lib
+creating /home/aaryan/ros2_ws/src/task6/build/rt2_logic/build/lib/rt2_logic
+copying rt2_logic/node2.py -> /home/aaryan/ros2_ws/src/task6/build/rt2_logic/build/lib/rt2_logic
+copying rt2_logic/node3.py -> /home/aaryan/ros2_ws/src/task6/build/rt2_logic/build/lib/rt2_logic
+copying rt2_logic/node1.py -> /home/aaryan/ros2_ws/src/task6/build/rt2_logic/build/lib/rt2_logic
+copying rt2_logic/__init__.py -> /home/aaryan/ros2_ws/src/task6/build/rt2_logic/build/lib/rt2_logic
+running install
+running install_lib
+creating /home/aaryan/ros2_ws/src/task6/install/rt2_logic/lib/python3.10/site-packages/rt2_logic
+copying /home/aaryan/ros2_ws/src/task6/build/rt2_logic/build/lib/rt2_logic/node2.py -> /home/aaryan/ros2_ws/src/task6/install/rt2_logic/lib/python3.10/site-packages/rt2_logic
+copying /home/aaryan/ros2_ws/src/task6/build/rt2_logic/build/lib/rt2_logic/node3.py -> /home/aaryan/ros2_ws/src/task6/install/rt2_logic/lib/python3.10/site-packages/rt2_logic
+copying /home/aaryan/ros2_ws/src/task6/build/rt2_logic/build/lib/rt2_logic/node1.py -> /home/aaryan/ros2_ws/src/task6/install/rt2_logic/lib/python3.10/site-packages/rt2_logic
+copying /home/aaryan/ros2_ws/src/task6/build/rt2_logic/build/lib/rt2_logic/__init__.py -> /home/aaryan/ros2_ws/src/task6/install/rt2_logic/lib/python3.10/site-packages/rt2_logic
+byte-compiling /home/aaryan/ros2_ws/src/task6/install/rt2_logic/lib/python3.10/site-packages/rt2_logic/node2.py to node2.cpython-310.pyc
+byte-compiling /home/aaryan/ros2_ws/src/task6/install/rt2_logic/lib/python3.10/site-packages/rt2_logic/node3.py to node3.cpython-310.pyc
+byte-compiling /home/aaryan/ros2_ws/src/task6/install/rt2_logic/lib/python3.10/site-packages/rt2_logic/node1.py to node1.cpython-310.pyc
+byte-compiling /home/aaryan/ros2_ws/src/task6/install/rt2_logic/lib/python3.10/site-packages/rt2_logic/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/aaryan/ros2_ws/src/task6/install/rt2_logic/share/ament_index
+creating /home/aaryan/ros2_ws/src/task6/install/rt2_logic/share/ament_index/resource_index
+creating /home/aaryan/ros2_ws/src/task6/install/rt2_logic/share/ament_index/resource_index/packages
+copying resource/rt2_logic -> /home/aaryan/ros2_ws/src/task6/install/rt2_logic/share/ament_index/resource_index/packages
+copying package.xml -> /home/aaryan/ros2_ws/src/task6/install/rt2_logic/share/rt2_logic
+running install_egg_info
+Copying ../build/rt2_logic/rt2_logic.egg-info to /home/aaryan/ros2_ws/src/task6/install/rt2_logic/lib/python3.10/site-packages/rt2_logic-0.0.0-py3.10.egg-info
+running install_scripts
+Installing node1 script to /home/aaryan/ros2_ws/src/task6/install/rt2_logic/lib/rt2_logic
+Installing node2 script to /home/aaryan/ros2_ws/src/task6/install/rt2_logic/lib/rt2_logic
+Installing node3 script to /home/aaryan/ros2_ws/src/task6/install/rt2_logic/lib/rt2_logic
+writing list of installed files to '/home/aaryan/ros2_ws/src/task6/build/rt2_logic/install.log'
